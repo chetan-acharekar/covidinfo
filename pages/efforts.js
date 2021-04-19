@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Efforts() {
     return  (
         <div className="container">
@@ -5,6 +7,7 @@ export default function Efforts() {
             <ul>
                 <li></li>
             </ul>
+            <h4><Link href="/"><a>Back to home</a></Link></h4>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,12 +11,12 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Lets fight war against covid-19 with correct information.
+          Let's fight war against covid-19 with correct information.
         </h1>
 
         <p className="description">
           <code>
-            If virus can work so well, why cant we work together.
+            If virus can work so well, why can't we work together.
             Humans are divided, virus is not.
             <hr></hr>
             We are in this together.
@@ -24,39 +25,39 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="/precautions" className="card">
-            <h3>Precautions &rarr;</h3>
-            <p>Steps we should follow.</p>
-          </a>
+          < div className="card">
+          <h3><Link href="/useful-links"><a>Useful Links &rarr;</a></Link>  </h3>
+            <p>All useful links in this difficult times.</p>
+          </div >
 
-          <a href="/hospitals" className="card">
-            <h3>Hosptials &rarr;</h3>
+          <div  className="card">
+            <h3><Link href="/hospitals"><a>Hosptials &rarr;</a></Link></h3>
             <p>Check status of hospitals and beds</p>
-          </a>
+          </div>
 
-          <a href="/efforts" className="card" >
-            <h3>Efforts &rarr;</h3>
+          <div  className="card" >
+            <h3><Link href="/efforts"><a>Efforts &rarr;</a></Link></h3>
             <p>Check ongoing efforts</p>
-          </a>
+          </div>
 
 
 
-          <a href="/contribute" className="card">
-            <h3>Contribute &rarr;</h3>
+          <div className="card">
+            <h3><Link href="/contribute"><a>Contribute &rarr;</a></Link></h3>
             <p>
               You can always help.
             </p>
-          </a>
+          </div>
 
-          <a href="/hoaxes" className="card">
-            <h3>Misleading info &rarr;</h3>
+          <div className="card">
+            <h3><Link href="/hoaxes"><a>Misleading info &rarr;</a></Link></h3>
             <p>Social media hoaxes</p>
-          </a>
+          </div>
 
-          <a href="/about-us" className="card">
-            <h3>About us &rarr;</h3>
+          <div className="card">
+            <h3><Link href="/about-us"><a>About us &rarr;</a></Link></h3>
             <p>We are just common people</p>
-          </a>
+          </div>
         </div>
       </main>
 
