@@ -57,7 +57,7 @@ export default function RecipeReviewCard() {
             description:"Students and alumni of IIT Bombay and IIMs have started an initiative called HelpNow. HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients, healthcare workers, hospitals, testing labs and Government bodies through the helpline number 88 99 88 99 52."
         },
         {
-            url:"https://covidfightclub.org",
+            url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",
             description:"Citywise Telegram Public Group to share, seek and give info on Covid related matters. " +
                 " Please join and take and give help in these difficult times" +
