@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function RecipeReviewCard() {
+export default function UseFulLinks() {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
 
@@ -60,7 +60,7 @@ export default function RecipeReviewCard() {
             url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",
             description:"Citywise Telegram Public Group to share, seek and give info on Covid related matters. " +
-                " Please join and take and give help in these difficult times" +
+                " Please join and take and give help in these difficult times. \n" +
                 "https://t.me/CovidAhmedabad\n" +
                 "https://t.me/CovidBengaluru\n" +
                 "https://t.me/covidbhopal\n" +

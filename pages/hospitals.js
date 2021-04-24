@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import Grid from "@material-ui/core/Grid";
+import Link from "next/link";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -36,9 +37,9 @@ export default function RecipeReviewCard() {
 
     const infoList = [
         {
-           url:"http://covidbedthane.in",
-           title:"Hospitals in Thane",
-           description:"Check beds availability, ventilators status in Thane"
+            url:"http://covidbedthane.in",
+            title:"Hospitals in Thane",
+            description:"Check beds availability, ventilators status in Thane"
         },
         {
             url:"http://covidpune.com",
@@ -56,10 +57,10 @@ export default function RecipeReviewCard() {
             description:"Students and alumni of IIT Bombay and IIMs have started an initiative called HelpNow. HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients, healthcare workers, hospitals, testing labs and Government bodies through the helpline number 88 99 88 99 52."
         },
         {
-            url:"https://covidfightclub.org",
+            url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",
             description:"Citywise Telegram Public Group to share, seek and give info on Covid related matters. " +
-                " Please join and take and give help in these difficult times" +
+                " Please join and take and give help in these difficult times. \n" +
                 "https://t.me/CovidAhmedabad\n" +
                 "https://t.me/CovidBengaluru\n" +
                 "https://t.me/covidbhopal\n" +
@@ -80,16 +81,6 @@ export default function RecipeReviewCard() {
                 "https://t.me/CovidSurat\n" +
                 "https://t.me/CovidUdaipur\n" +
                 "https://t.me/CovidVaranasi "
-        },
-        {
-            url:"https://covidfightclub.org",
-            title:"Check various covid resources status",
-            description:"Check various covid resources status in various cities"
-        },
-        {
-            url:"https://covidfightclub.org",
-            title:"Check various covid resources status",
-            description:"Check various covid resources status in various cities"
         }]
 
     const items = []
@@ -115,8 +106,12 @@ export default function RecipeReviewCard() {
 
 
     return (
-        <Grid container spacing={24}>
-            {items}
-        </Grid>
+        <div>
+            <h6><Link href="/"><a>Back to home</a></Link></h6>
+            <Grid container spacing={24}>
+
+                {items}
+            </Grid>
+        </div>
     );
 }

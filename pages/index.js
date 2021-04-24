@@ -36,8 +36,8 @@ export default function Home() {
           {/*</div>*/}
 
           <div  className="card" >
-            <h3><Link href="/efforts"><a>Efforts &rarr;</a></Link></h3>
-            <p>Check ongoing efforts</p>
+            <h3><Link href="/social-media"><a>Social Media &rarr;</a></Link></h3>
+            <p>Check ongoing efforts on social media</p>
           </div>
 
 
@@ -49,10 +49,10 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="card">
-            <h3><Link href="/hoaxes"><a>Misleading info &rarr;</a></Link></h3>
-            <p>Social media hoaxes</p>
-          </div>
+          {/*<div className="card">*/}
+          {/*  <h3><Link href="/hoaxes"><a>Misleading info &rarr;</a></Link></h3>*/}
+          {/*  <p>Social media hoaxes</p>*/}
+          {/*</div>*/}
 
           <div className="card">
             <h3><Link href="/about-us"><a>About us &rarr;</a></Link></h3>
@@ -68,7 +68,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          U and ME
         </a>
       </footer>
 
