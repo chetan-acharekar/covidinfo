@@ -30,10 +30,10 @@ export default function Home() {
             <p>All useful links in this difficult times.</p>
           </div >
 
-          <div  className="card">
-            <h3><Link href="/hospitals"><a>Hosptials &rarr;</a></Link></h3>
-            <p>Check status of hospitals and beds</p>
-          </div>
+          {/*<div  className="card">*/}
+          {/*  <h3><Link href="/hospitals"><a>Hosptials &rarr;</a></Link></h3>*/}
+          {/*  <p>Check status of hospitals and beds</p>*/}
+          {/*</div>*/}
 
           <div  className="card" >
             <h3><Link href="/efforts"><a>Efforts &rarr;</a></Link></h3>
