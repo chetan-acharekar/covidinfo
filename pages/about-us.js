@@ -1,13 +1,65 @@
 import Link from "next/link";
+import Container from "@material-ui/core/Container";
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+
+const useStyles = makeStyles({
+    root: {
+        minWidth: 275,
+    },
+    bullet: {
+        display: 'inline-block',
+        margin: '0 2px',
+        transform: 'scale(0.8)',
+    },
+    title: {
+        fontSize: 14,
+    },
+    pos: {
+        marginBottom: 12,
+    },
+});
 
 export default function AboutUs() {
+    const classes = useStyles();
+    const bull = <span className={classes.bullet}>•</span>;
+
     return  (
-        <div className="container">
-            <h1>Check status </h1>
-            <ul>
-                <li></li>
-            </ul>
-            <h4><Link href="/"><a>Back to home</a></Link></h4>
-        </div>
+    <Container maxWidth="sm">
+
+        <h4><Link href="/"><a>Back to home</a></Link></h4>
+
+        <Card className={classes.root}>
+            <CardContent>
+
+                <Typography component="p">
+                    Bheed toh dekhi hogi na aapne? Bheed mein se koi ek shakal chun lijiye, main woh hoon.
+                    <br/>
+
+                </Typography>
+                <Typography className={classes.pos} color="textSecondary">
+                    -Naseeruddin Shah, Wednessday
+                </Typography>
+                <Typography variant="body2" component="p">
+                    We are going through difficult times.Having correct information can be matter of life and death.
+                    We are trying to centralize all information at one place.Our aim is to minimize efforts required
+                    to gather any info anyone may require when their loved ones need medicine/oxygen/hospital.
+                    <br/>
+
+                </Typography>
+                <Typography  variant="h5" component="h2">
+                    <br/>
+                    We are in this together, we will fight it.
+                    <br/>
+                    We will win. We always have.
+                </Typography>
+
+            </CardContent>
+
+        </Card>
+    </Container>
     )
 }
