@@ -39,16 +39,16 @@ export default function Contribute() {
                         You can help
                     </Typography>
                     <Typography className={classes.pos} color="textSecondary">
-                        always
+
                     </Typography>
                     <Typography variant="body2" component="p">
                         If you have any information which you think is useful and world should know about it,
                         Please share with us. We try and publish only authentic sources.However it is really difficult job.
                         Hence please dont spam and waste everyone's precious time.
                     </Typography>
-                    <Typography variant="body2" component="h4">
+                    <Typography variant="body2" component="h4"  color="textSecondary">
                         <br/>
-                        fightvscorona@gmail.com
+                        Get in touch with our team : fightvscorona@gmail.com
                     </Typography>
 
                 </CardContent>

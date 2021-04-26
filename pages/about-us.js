@@ -54,7 +54,14 @@ export default function AboutUs() {
                     <br/>
                     We are in this together, we will fight it.
                     <br/>
-                    We will win. We always have.
+                </Typography>
+                <Typography variant="body2" component="p" color="textSecondary">
+                    <br/>
+                    Our team always try to verify info before posting, however if any of info leads negative, please let us know.
+                    We will try to provide you alternatives and also remove false info from website.
+                    This will help others also.
+                    <br/>
+                    Shoot your update at : fightvscorona@gmail.com
                 </Typography>
 
             </CardContent>
