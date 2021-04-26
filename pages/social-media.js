@@ -78,7 +78,7 @@ export default function SocialMedia() {
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    <a href={value['url']}>{value['urlTitle']}</a>
+                    <a href={value['url']} target="_blank" rel="noreferrer noopener">{value['urlTitle']}</a>
                 </Button>
             </CardActions>
         </Card>

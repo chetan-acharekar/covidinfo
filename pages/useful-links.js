@@ -194,7 +194,7 @@ export default function UseFulLinks() {
                 <CardHeader title={value['title']}/>
                 <CardContent>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        <a href={value['url']} className="card"><li>{value['url']}</li></a>
+                        <a href={value['url']} className="card" target="_blank" rel="noreferrer noopener"><li>{value['url']}</li></a>
                     </Typography>
                 </CardContent>
                 <CardContent>
