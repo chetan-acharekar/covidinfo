@@ -106,103 +106,103 @@ export default function UseFulLinks() {
             url:"",
             title:"Medical resources in Delhi",
             description:
-                "Helping charitable trust  : 9999085058 new delhi \n" +
-                ", Vatality Equipment supplier : 9818771716 new delhi \n " +
-                ", Medicare international : 9810844665 new delhi\n" +
-                ", Oxygen lead : Mayapuri,B 133 indust.Area Phn..9891139441\n" +
-                ", Oxygen lead :  9650804044 gurgaon\n" +
+                "Helping charitable trust  : +919999085058 new delhi \n" +
+                ", Vatality Equipment supplier : +919818771716 new delhi \n " +
+                ", Medicare international : +919810844665 new delhi\n" +
+                ", Oxygen lead : Mayapuri,B 133 indust.Area Phn +919891139441\n" +
+                ", Oxygen lead :  +919650804044 gurgaon\n" +
                 ", Hukum chand & sons : 01124372745\n" +
                 "\n" +
-                "Avs surgical oxygen new delhi: 9899620996\n" +
+                "Avs surgical oxygen new delhi: +919899620996\n" +
                 "\n" +
-                "Sewa bharti Diagnostic centre- vadhera bhawan, ashok vihar, delhi 9319094933,011-43524996\n" +
+                "Sewa bharti Diagnostic centre- vadhera bhawan, ashok vihar, delhi +919319094933,011-43524996\n" +
                 "\n" +
-                "Jamiyat youth club, ulma-e-hind, bahadurashah zafar marg new delhi- 9971628838,7016057908\n" +
+                "Jamiyat youth club, ulma-e-hind, bahadurashah zafar marg new delhi- +919971628838,+917016057908\n" +
                 "\n" +
-                "Jay EMM gases- home cylinder for home quarantine,delhi 9310031095 \n" +
+                "Jay EMM gases- home cylinder for home quarantine,delhi +919310031095 \n" +
                 "\n" +
-                "Anil oxygen 9810520580,9899991758.\n" +
+                "Anil oxygen +919810520580,+919899991758.\n" +
                 "ND\n" +
-                "Swaab samaj-  oxygen service,food- 9818936934,9971265674\n" +
+                "Swaab samaj-  oxygen service,food- +919818936934,+919971265674\n" +
                 "\n" +
                 "Marwari yuva march- noida,oxygen bank  oxygen cylinder available - noida \n" +
-                "9211162600,9953545358,9911092813.\n" +
+                "+919211162600,+919953545358,+919911092813.\n" +
                 "\n" +
-                "Phatak Habash khan,Food, oxygen rifil delhi- 9810888857 \n" +
+                "Phatak Habash khan,Food, oxygen rifil delhi- +919810888857 \n" +
                 "\n" +
                 "Gali Qasim jaan,Lal kuan,garan road delhi-\n" +
-                "Humayun, siraj 9811136674,9871421342\n" +
+                "Humayun, siraj +919811136674,+919871421342\n" +
                 "oxygen rifil\n" +
                 "\n" +
                 "Kisan ganj,islam ganj,sheesh mahal-ND\n" +
-                "faeem,Ateeq- 7838572759,9873423252\n" +
+                "faeem,Ateeq- +917838572759,+919873423252\n" +
                 " oxygen rifil\n" +
                 "\n" +
                 "Ballimaran-delhi\n" +
-                "anas ibrahim,faraz chamri wale- 7982191004,9899037929\n" +
+                "anas ibrahim,faraz chamri wale- +917982191004,+919899037929\n" +
                 " oxygen rifil\n" +
                 "\n" +
-                "Nawaw Ganj,Naya mohalla Pul Bangash- sufiyan, ismail box-9310559924,9971200546\n" +
+                "Nawaw Ganj,Naya mohalla Pul Bangash- sufiyan, ismail box-+919310559924,+919971200546\n" +
                 " oxygen rifil\n" +
                 "\n" +
                 "Bara hindu rao, Beri wala bag- Delhi\n" +
-                "Uzair Ahmed, md usmaan- 9999896460,9560887266\n" +
+                "Uzair Ahmed, md usmaan- +919999896460,+919560887266\n" +
                 " oxygen rifil\n" +
                 "\n" +
-                "Okhla-Batla house chauk,neta ji shariq husain United Against Hate-9990431468\n" +
+                "Okhla-Batla house chauk,neta ji shariq husain United Against Hate-+919990431468\n" +
                 " oxygen rifil\n" +
                 "\n" +
-                "Okhla- Ayaaz, shariq peetal wale, Anas tihar batla- 9891541476,9811656382,9873112797\n" +
-                "New friends colony- jawad ur rehman chairman- 7292072776\n" +
+                "Okhla- Ayaaz, shariq peetal wale, Anas tihar batla- +919891541476,+919811656382,+919873112797\n" +
+                "New friends colony- jawad ur rehman chairman- +917292072776\n" +
                 " oxygen rifil\n" +
                 "\n" +
                 "Hauz rani- new delhi\n" +
                 "Farooq siddique,\n" +
-                "emergency oxygen and cylinder- 9999869483\n" +
+                "emergency oxygen and cylinder- +919999869483\n" +
                 "\n" +
-                "Mustfabaad- delhi, Mohd waasil- 9312950509\n" +
+                "Mustfabaad- delhi, Mohd waasil- +919312950509\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Azad Market Mohd shariq- 9899435380\n" +
+                "Azad Market Mohd shariq- +919899435380\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Ajmeri gate Mohammad Taqi-9811160019\n" +
+                "Ajmeri gate Mohammad Taqi-+919811160019\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Khucha Chellan Mohd suhail- 9810376335\n" +
+                "Khucha Chellan Mohd suhail- +919810376335\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Kalan Mahal  Jawed Akhter- 9818333501\n" +
+                "Kalan Mahal  Jawed Akhter- +919818333501\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Turkman Gate, Mohd Farmaan- 9811623880\n" +
+                "Turkman Gate, Mohd Farmaan- +919811623880\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Dariyaganj delhi, Farman sahab- 9811623860\n" +
+                "Dariyaganj delhi, Farman sahab- +919811623860\n" +
                 "\n" +
-                "Talent Ngo, Turkman gate, Irshad Ahmed- 9810221954,9313483314\n" +
+                "Talent Ngo, Turkman gate, Irshad Ahmed- +919810221954,+919313483314\n" +
                 " oxygen and Equipments\n" +
                 "\n" +
-                "Shakoor ki bandi, Mohd Anas- 8750205734\n" +
+                "Shakoor ki bandi, Mohd Anas- +918750205734\n" +
                 " emergency oxygen and cylinder\n" +
                 "\n" +
-                "Tihara Bairam khan, syed abrar ali-  9999690269\n" +
+                "Tihara Bairam khan, syed abrar ali-  +919999690269\n" +
                 " oxygen refil\n" +
                 "\n" +
-                "Chandni chowk,Bag wali masjid,Tayyab Ehsan- 9810235786\n" +
+                "Chandni chowk,Bag wali masjid,Tayyab Ehsan- +919810235786\n" +
                 " oxygen refil\n" +
                 "\n" +
                 "Wazirabaad delhi,28 futa road, near Jama masjid, Gali-9,Mohd salim\n" +
                 " oxygen refil\n" +
                 "\n" +
-                "Rohini sec-8,C-7/236 Mr.Yash--9811868466\n" +
+                "Rohini sec-8,C-7/236 Mr.Yash--+919811868466\n" +
                 " oxygen refil\n" +
                 "\n" +
-                "Rohini sec-11,H3/5,6 Mr. Anjani kumar--8950276817\n" +
+                "Rohini sec-11,H3/5,6 Mr. Anjani kumar--+918950276817\n" +
                 " oxygen refil\n" +
                 "\n" +
                 "Arvind jain,Oxygen silender and oxygen- all delhi\n" +
-                "9315686858"
+                "+919315686858"
         },]
 
     const items = []
