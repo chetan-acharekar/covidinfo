@@ -36,7 +36,7 @@ export default function SocialMedia() {
     },{
         image:"",
         title:"Central Link for general questions",
-        details:"RSS group helpline for plasma related stuff in dombivli",
+        details:"Standard guidelines, experts opinions",
         url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
         urlTitle:"Blumiers-Covid-19-Resource"
     },{
