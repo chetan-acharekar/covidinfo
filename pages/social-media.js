@@ -39,7 +39,17 @@ export default function SocialMedia() {
         details:"RSS group helpline for plasma related stuff in dombivli",
         url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
         urlTitle:"Blumiers-Covid-19-Resource"
+    },{
+        image:"/instagram.jpeg",
+        title:"Citywise resources",
+        details:"Static data regarding Covid available, saved in city-wise highlights.",
+        url:"https://www.instagram.com/alingaan/",
+        urlTitle:"Instagram Link"
     },
+
+
+
+
         {
             image:"/twitter.jpeg",
             title:"Bhumi pednekar on twitter @bhumipednekar",
