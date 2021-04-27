@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Container from "@material-ui/core/Container";
 
 export default function Home() {
   return (
@@ -59,6 +60,11 @@ export default function Home() {
             <p>We are just common people</p>
           </div>
         </div>
+        <Container>
+          < div className="card">
+            <p>Content of this website has been crowdsourced. We don't have complete control or any interest over information shared. We do preliminary verification of the source. User are advised to use their discretion while using any of the information. We also urge you to notify to us whenever any information is helpful to you or it is misleading for betterment of community.</p>
+          </div>
+        </Container>
       </main>
 
       <footer>
