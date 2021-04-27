@@ -57,6 +57,22 @@ export default function UseFulLinks() {
             description:"Students and alumni of IIT Bombay and IIMs have started an initiative called HelpNow. HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients, healthcare workers, hospitals, testing labs and Government bodies through the helpline number 88 99 88 99 52."
         },
         {
+            url:"https://covidrelief.glideapp.io/",
+            title:"Covid resources",
+            description:"Covid resources app working simply on google sheet"
+        },
+        {
+            url:"https://dhoondh.com/",
+            title:"Plasma search",
+            description:"Donate plasma or check availability for your loved ones"
+        },
+        {
+            url:"https://plasmaline.in/",
+            title:"Plasma search",
+            description:"Donate plasma or check availability for your loved ones"
+        },
+
+        {
             url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",
             description:"Citywise Telegram Public Group to share, seek and give info on Covid related matters. " +
