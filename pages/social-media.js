@@ -22,12 +22,26 @@ const useStyles = makeStyles({
 export default function SocialMedia() {
     const classes = useStyles();
     const rows = [{
-        image:"/plasma-dombivli.jpeg",
-        title:"plasma-Dombivli",
-        details:"RSS group helpline for plasma related stuff in dombivli"
+        image:"/instagram.jpeg",
+        title:"Gujraat Resources",
+        details:"",
+        url:"https://www.instagram.com/stvorg/guide/gujarat-covid-19-resources/17887002398146172/?igshid=19t71rz9zx0k8",
+        urlTitle:"Instagram Link"
+    },{
+        image:"",
+        title:"Quick twitter search",
+        details:"Apply various filters and get information quickly",
+        url:"https://covid19-twitter.in/",
+        urlTitle:"https://covid19-twitter.in/"
+    },{
+        image:"",
+        title:"Central Link for general questions",
+        details:"RSS group helpline for plasma related stuff in dombivli",
+        url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
+        urlTitle:"Blumiers-Covid-19-Resource"
     },
         {
-            image:"",
+            image:"/twitter.jpeg",
             title:"Bhumi pednekar on twitter @bhumipednekar",
             details:"For all those reaching out for help please send in this format :\n" +
                 "Patient Name-\n" +
@@ -47,11 +61,19 @@ export default function SocialMedia() {
             url:"https://twitter.com/bhumipednekar",
             urlTitle:"Twitter account"
         },
-        {image:"",
-        title:"Thread on oxygen resources",
-        details:"",
+
+
+         {
+            image:"/twitter.jpeg",
+            title:"Thread on oxygen resources",
+            details:"",
             url:"https://twitter.com/FinWise3/status/1385466839124254720?s=08",
-            urlTitle:"Thread"}
+            urlTitle:"Thread"
+        },{
+            image:"/plasma-dombivli.jpeg",
+            title:"plasma-Dombivli",
+            details:"RSS group helpline for plasma related stuff in dombivli"
+        }
 
         ]
 
