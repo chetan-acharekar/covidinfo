@@ -34,12 +34,6 @@ export default function SocialMedia() {
         url:"https://covid19-twitter.in/",
         urlTitle:"https://covid19-twitter.in/"
     },{
-        image:"",
-        title:"Central Link for general questions",
-        details:"Standard guidelines, experts opinions",
-        url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
-        urlTitle:"Blumiers-Covid-19-Resource"
-    },{
         image:"/instagram.jpeg",
         title:"Citywise resources",
         details:"Static data regarding Covid available, saved in city-wise highlights.",

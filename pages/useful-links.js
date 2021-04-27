@@ -71,7 +71,11 @@ export default function UseFulLinks() {
             title:"Plasma search",
             description:"Donate plasma or check availability for your loved ones"
         },
-
+        {
+            description:"Standard guidelines, experts opinions",
+            url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
+            title:"Blumiers-Covid-19-Resource"
+        },
         {
             url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",
