@@ -47,6 +47,11 @@ export default function UseFulLinks() {
             description:"Check beds availability, ventilators status in Pune"
         },
         {
+            url:"https://docs.google.com/spreadsheets/d/10dnssljiBoCE7Ni9UGpEGcWiBn0z_8vBARHAkoU8HJg/edit#gid=0",
+            description:"Contact details for few hospitals in pune Area ",
+            title:"Hospitals in Pune",
+        },
+        {
             url:"https://covidfightclub.org",
             title:"Check various covid resources status",
             description:"Check various covid resources status in various cities"
@@ -76,6 +81,12 @@ export default function UseFulLinks() {
             url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
             title:"Blumiers-Covid-19-Resource"
         },
+        {
+            description:"City wise resources status ",
+            title:"Sprinklr Dashboard",
+            url:"https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/5?id=DASHBOARD_601b9e214c7a6b689d76f493&home=1"
+        },
+
         {
             url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",

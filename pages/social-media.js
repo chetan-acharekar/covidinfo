@@ -73,7 +73,17 @@ export default function SocialMedia() {
             details:"",
             url:"https://twitter.com/FinWise3/status/1385466839124254720?s=08",
             urlTitle:"Thread"
-        },{
+        },
+        {
+            image:"/twitter.jpeg",
+            title:"Oxygen Leads in Haryana",
+            details:"District wise Nodal officers for oxygen supply in Haryana ",
+            url:"https://twitter.com/ipspankajnain/status/1386715297416052737/photo/1",
+            urlTitle:"Link"
+        },
+
+
+        {
             image:"/plasma-dombivli.jpeg",
             title:"plasma-Dombivli",
             details:"RSS group helpline for plasma related stuff in dombivli"
