@@ -45,7 +45,14 @@ export default function SocialMedia() {
         url:"https://www.instagram.com/alingaan/",
         urlTitle:"Instagram Link"
     },
-
+    {
+        id:3,
+            image:"/instagram.jpeg",
+        title:"Citywise resources",
+        details:"Covid Aid Resources, India, saved in city-wise highlights.",
+        url:"https://www.instagram.com/covidaidresources",
+        urlTitle:"Instagram Link"
+    },
 
 
 
@@ -98,7 +105,11 @@ export default function SocialMedia() {
             image:"/plasma-dombivli.jpeg",
             title:"plasma-Dombivli",
             details:"RSS group helpline for plasma related stuff in dombivli"
-        }, { id:9,
+        },
+
+
+
+        { id:9,
             url:"https://t.me/CovidMumbai",
             image:"/telegram.png",
             urlTitle:"Mumbai Telegram group",
