@@ -87,6 +87,63 @@ export default function UseFulLinks() {
             url:"https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/5?id=DASHBOARD_601b9e214c7a6b689d76f493&home=1"
         },
 
+
+        {
+            description:"Covid relief resources like hospital beds, oxygen, remdesivir, etc. aggregated from multiple sources ",
+            title:"Data aggregator for medical resources",
+            url:"https://covidtools.in"
+        },
+        {
+            description:"Powered by 200+ selfless volunteers to provide verified covid resources across India. ",
+            title:"Data with last verification Dates ",
+            url:"https://indiacovidresources.in/"
+        },
+        {
+            description:"List of all help providers which we are verified on a regular basis ",
+            title:"Data with last verification Dates ",
+            url:"https://covidsos.org/"
+        },
+        {
+            description:"Data for Oxygen,Bed,Blood Plasma,Remdesivir/Tocilizumab,Fabiflu across nation  ",
+            title:"All medical resources list statewise ",
+            url:"https://www.covidindiahelp.info/"
+        },
+        {
+            description:"Scroll down at home page, they added section for Covid resources  ",
+            title:" Medical resources ",
+            url:"https://workimmune.com/"
+        },
+
+        {
+            description:"Quick chat to find resources ",
+            title:" Covid Chat bot ",
+            url:"https://www.covidsos.live/app/index.html"
+        },
+
+        {
+            description:"Data aggregator for all covid resources",
+            title:" Search for resources ",
+            url:"https://covidkhoj.in/"
+        },
+        {
+            description:"This is a list of exhaustible resources for Covid-19.",
+            title:" Search for resources ",
+            url:"https://covidresources.netlify.app/"
+        },
+        {
+            description:"Find Hospitals on Map",
+            title:" Search for hospitals ",
+            url:"https://covid-19-hospital-data.el.r.appspot.com/?location=Delhi&onlyGreen=true"
+        },
+        {
+            description:"All information but limited to banglore region",
+            title:" Banglore ",
+            url:"https://covidhelplinebangalore.com/"
+        },
+
+
+
+
         {
             url:"https://t.me/CovidMumbai",
             title:"Telegram Groups",

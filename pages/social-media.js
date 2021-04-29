@@ -66,7 +66,12 @@ export default function SocialMedia() {
             urlTitle:"Twitter account"
         },
 
-
+        {
+            details:"All whatsapp group Links at one Place",
+            title:"Whatsapp ",
+            url:"https://linktr.ee/covidsevaindia",
+            urlTitle:"linktr.ee"
+        },
          {
             image:"/twitter.jpeg",
             title:"Thread on oxygen resources",
