@@ -63,6 +63,7 @@ export default function Home() {
         <Container>
           < div className="card">
             <p>Content of this website has been crowdsourced. We don't have complete control or any interest over information shared. We do preliminary verification of the source. User are advised to use their discretion while using any of the information. We also urge you to notify to us whenever any information is helpful to you or it is misleading for betterment of community.</p>
+            <p>You can reach us on twitter : @Fightvscorona1</p>
           </div>
         </Container>
       </main>

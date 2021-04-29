@@ -61,8 +61,17 @@ export default function AboutUs() {
                     We will try to provide you alternatives and also remove false info from website.
                     This will help others also.
                     <br/>
+                    <br/>
                     Shoot your update at : fightvscorona@gmail.com
                 </Typography>
+
+                <Typography variant="body2" component="p" color="textSecondary">
+                    <br/>
+                     We are active on twitter as well, our handle is :  @Fightvscorona1.
+                    <br/>
+                </Typography>
+
+
 
             </CardContent>
 
