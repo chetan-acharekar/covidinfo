@@ -40,6 +40,10 @@ export default function Home() {
             <h3><Link href="/social-media"><a>Social Media &rarr;</a></Link></h3>
             <p>Check ongoing efforts on social media</p>
           </div>
+          <div  className="card" >
+            <h3><Link href="/plasma"><a>Plasma &rarr;</a></Link></h3>
+            <p>Check plasma donours or Donate Plasma</p>
+          </div>
 
 
 

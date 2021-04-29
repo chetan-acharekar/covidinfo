@@ -66,16 +66,7 @@ export default function UseFulLinks() {
             title:"Covid resources",
             description:"Covid resources app working simply on google sheet"
         },
-        {
-            url:"https://dhoondh.com/",
-            title:"Plasma search",
-            description:"Donate plasma or check availability for your loved ones"
-        },
-        {
-            url:"https://plasmaline.in/",
-            title:"Plasma search",
-            description:"Donate plasma or check availability for your loved ones"
-        },
+
         {
             description:"Standard guidelines, experts opinions",
             url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
