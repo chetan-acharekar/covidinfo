@@ -20,7 +20,8 @@ const rows = [
     { id: 6, link: 'https://needplasma.in/' },
     { id: 7, link: 'https://plasmadonor.in/'},
     { id: 8, link: 'https://givered.in/' },
-    { id: 9, link: 'https://www.teamsosindia.in/' }
+    { id: 9, link: 'https://www.teamsosindia.in/' },
+    { id:10,  link:'https://plasmadatabase.glideapp.io/'}
 ];
 
 
