@@ -27,8 +27,10 @@ export default function Home() {
 
         <div className="grid">
           < div className="card">
-          <h3><Link href="/useful-links"><a>Useful Links &rarr;</a></Link>  </h3>
-            <p>All useful links in this difficult times.</p>
+            <Link href="/useful-links"><a>
+             <h3>Useful Links &rarr;  </h3>
+              <p>All useful links in this difficult times.</p>
+            </a></Link>
           </div >
 
           {/*<div  className="card">*/}
@@ -37,21 +39,27 @@ export default function Home() {
           {/*</div>*/}
 
           <div  className="card" >
-            <h3><Link href="/social-media"><a>Social Media &rarr;</a></Link></h3>
-            <p>Check ongoing efforts on social media</p>
+            <Link href="/social-media"><a>
+              <h3>Social Media &rarr;</h3>
+              <p>Check ongoing efforts on social media</p>
+            </a></Link>
           </div>
           <div  className="card" >
-            <h3><Link href="/plasma"><a>Plasma &rarr;</a></Link></h3>
-            <p>Check plasma donours or Donate Plasma</p>
+            <Link href="/plasma"><a>
+              <h3>Plasma &rarr;</h3>
+              <p>Check plasma donours or Donate Plasma</p>
+            </a></Link>
           </div>
 
 
 
           <div className="card">
-            <h3><Link href="/contribute"><a>Contribute &rarr;</a></Link></h3>
-            <p>
-              You can always help.
-            </p>
+            <Link href="/contribute"><a>
+              <h3>Contribute &rarr;</h3>
+              <p>
+                You can always help.
+              </p>
+            </a></Link>
           </div>
 
           {/*<div className="card">*/}
@@ -60,8 +68,10 @@ export default function Home() {
           {/*</div>*/}
 
           <div className="card">
-            <h3><Link href="/about-us"><a>About us &rarr;</a></Link></h3>
-            <p>We are just common people</p>
+            <Link href="/about-us"><a>
+              <h3>About us &rarr;</h3>
+              <p>We are just common people</p>
+            </a></Link>
           </div>
         </div>
         <Container>
