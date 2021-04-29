@@ -19,21 +19,26 @@ const useStyles = makeStyles({
     },
 });
 
+
+
 export default function SocialMedia() {
     const classes = useStyles();
     const rows = [{
+        id:1,
         image:"/instagram.jpeg",
         title:"Gujraat Resources",
         details:"",
         url:"https://www.instagram.com/stvorg/guide/gujarat-covid-19-resources/17887002398146172/?igshid=19t71rz9zx0k8",
         urlTitle:"Instagram Link"
     },{
-        image:"",
+        id:2,
+        image:"/twitter.jpeg",
         title:"Quick twitter search",
         details:"Apply various filters and get information quickly",
         url:"https://covid19-twitter.in/",
         urlTitle:"https://covid19-twitter.in/"
     },{
+        id:3,
         image:"/instagram.jpeg",
         title:"Citywise resources",
         details:"Static data regarding Covid available, saved in city-wise highlights.",
@@ -44,7 +49,7 @@ export default function SocialMedia() {
 
 
 
-        {
+        { id:4,
             image:"/twitter.jpeg",
             title:"Bhumi pednekar on twitter @bhumipednekar",
             details:"For all those reaching out for help please send in this format :\n" +
@@ -66,20 +71,21 @@ export default function SocialMedia() {
             urlTitle:"Twitter account"
         },
 
-        {
+        { id:5,
             details:"All whatsapp group Links at one Place",
+            image:"/whatsapp.png",
             title:"Whatsapp ",
             url:"https://linktr.ee/covidsevaindia",
             urlTitle:"linktr.ee"
         },
-         {
+         { id:6,
             image:"/twitter.jpeg",
             title:"Thread on oxygen resources",
             details:"",
             url:"https://twitter.com/FinWise3/status/1385466839124254720?s=08",
             urlTitle:"Thread"
         },
-        {
+        { id:7,
             image:"/twitter.jpeg",
             title:"Oxygen Leads in Haryana",
             details:"District wise Nodal officers for oxygen supply in Haryana ",
@@ -88,10 +94,38 @@ export default function SocialMedia() {
         },
 
 
-        {
+        { id:8,
             image:"/plasma-dombivli.jpeg",
             title:"plasma-Dombivli",
             details:"RSS group helpline for plasma related stuff in dombivli"
+        }, { id:9,
+            url:"https://t.me/CovidMumbai",
+            image:"/telegram.png",
+            urlTitle:"Mumbai Telegram group",
+            title:"Telegram Groups",
+            details:"Citywise Telegram Public Group to share, seek and give info on Covid related matters. " +
+                " Please join and take and give help in these difficult times. \n\n" +
+                "\n https://t.me/CovidMumbai\n" +
+                "https://t.me/CovidAhmedabad\n" +
+                "https://t.me/CovidBengaluru\n" +
+                "https://t.me/covidbhopal\n" +
+                "https://t.me/CovidChandigarh\n" +
+                "https://t.me/CovidCoimbatore\n" +
+                "https://t.me/CovidHyderabad\n" +
+                "https://t.me/CovidIndore\n" +
+                "https://t.me/CovidJaipur\n" +
+                "https://t.me/CovidJodhpur\n" +
+                "https://t.me/CovidKolkata\n" +
+                "https://t.me/CovidLucknow \n" +
+                "https://t.me/CovidMumbai\n" +
+                "https://t.me/CovidNCR\n" +
+                "https://t.me/CovidNagpur\n" +
+                "https://t.me/CovidNashik\n" +
+                "https://t.me/CovidPatna\n" +
+                "https://t.me/CovidPune\n" +
+                "https://t.me/CovidSurat\n" +
+                "https://t.me/CovidUdaipur\n" +
+                "https://t.me/CovidVaranasi "
         }
 
         ]

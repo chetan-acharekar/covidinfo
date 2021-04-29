@@ -37,131 +37,146 @@ export default function UseFulLinks() {
 
     const infoList = [
         {
+            id:1,
             url:"http://covidbedthane.in",
             title:"Hospitals in Thane",
-            description:"Check beds availability, ventilators status in Thane"
+            description:"Check beds availability, ventilators status in Thane",
+            city:"Thane"
         },
         {
+            id:2,
             url:"http://covidpune.com",
             title:"Hospitals in Pune",
-            description:"Check beds availability, ventilators status in Pune"
+            description:"Check beds availability, ventilators status in Pune",
+            city:"Pune"
         },
         {
+            id:3,
             url:"https://docs.google.com/spreadsheets/d/10dnssljiBoCE7Ni9UGpEGcWiBn0z_8vBARHAkoU8HJg/edit#gid=0",
             description:"Contact details for few hospitals in pune Area ",
             title:"Hospitals in Pune",
+            city:"Pune"
         },
         {
+            id:4,
+            description:"Covid resources such as oxygen, medicines, plasma, hospital beds, food services, ambulances etc. A team of 15 volunteers is verifying the leads every 3 hours.",
+            title:" Delhi ",
+            url:"https://verifiedcovidleads.com/",
+            city:"Delhi"
+        },
+        {
+            id:5,
             url:"https://covidfightclub.org",
             title:"Check various covid resources status",
-            description:"Check various covid resources status in various cities"
+            description:"Check various covid resources status in various cities",
+            city:"India"
         },
         {
+            id:6,
             url:"https://www.gethelpnow.in",
             title:"Get Ambulance",
-            description:"Students and alumni of IIT Bombay and IIMs have started an initiative called HelpNow. HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients, healthcare workers, hospitals, testing labs and Government bodies through the helpline number 88 99 88 99 52."
+            description:"Students and alumni of IIT Bombay and IIMs have started an initiative called HelpNow. HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients, healthcare workers, hospitals, testing labs and Government bodies through the helpline number 88 99 88 99 52.",
+            city:"India"
         },
         {
+            id:7,
             url:"https://covidrelief.glideapp.io/",
             title:"Covid resources",
-            description:"Covid resources app working simply on google sheet"
+            description:"Covid resources app working simply on google sheet",
+            city:"India"
         },
 
         {
+            id:8,
             description:"Standard guidelines, experts opinions",
             url:"https://www.notion.so/Blumiers-Covid-19-Resource-Guide-2021-d1b93d2c4d5449128e57d1fa3532ec03",
-            title:"Blumiers-Covid-19-Resource"
+            title:"Blumiers-Covid-19-Resource",
+            city:"India"
         },
         {
+            id:9,
             description:"City wise resources status ",
             title:"Sprinklr Dashboard",
-            url:"https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/5?id=DASHBOARD_601b9e214c7a6b689d76f493&home=1"
+            url:"https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/5?id=DASHBOARD_601b9e214c7a6b689d76f493&home=1",
+            city:"India"
         },
 
 
         {
+            id:10,
             description:"Covid relief resources like hospital beds, oxygen, remdesivir, etc. aggregated from multiple sources ",
             title:"Data aggregator for medical resources",
-            url:"https://covidtools.in"
+            url:"https://covidtools.in",
+            city:"India"
         },
         {
+            id:11,
             description:"Powered by 200+ selfless volunteers to provide verified covid resources across India. ",
             title:"Data with last verification Dates ",
-            url:"https://indiacovidresources.in/"
+            url:"https://indiacovidresources.in/",
+            city:"India"
         },
         {
+            id:12,
             description:"List of all help providers which we are verified on a regular basis ",
             title:"Data with last verification Dates ",
-            url:"https://covidsos.org/"
+            url:"https://covidsos.org/",
+            city:"India"
         },
         {
+            id:13,
             description:"Data for Oxygen,Bed,Blood Plasma,Remdesivir/Tocilizumab,Fabiflu across nation  ",
             title:"All medical resources list statewise ",
-            url:"https://www.covidindiahelp.info/"
+            url:"https://www.covidindiahelp.info/",
+            city:"India"
         },
         {
+            id:14,
             description:"Scroll down at home page, they added section for Covid resources  ",
             title:" Medical resources ",
-            url:"https://workimmune.com/"
+            url:"https://workimmune.com/",
+            city:"India"
         },
 
         {
+            id:15,
             description:"Quick chat to find resources ",
             title:" Covid Chat bot ",
-            url:"https://www.covidsos.live/app/index.html"
+            url:"https://www.covidsos.live/app/index.html",
+            city:"India"
         },
 
         {
+            id:16,
             description:"Data aggregator for all covid resources",
             title:" Search for resources ",
-            url:"https://covidkhoj.in/"
+            url:"https://covidkhoj.in/",
+            city:"India"
         },
         {
+            id:17,
             description:"This is a list of exhaustible resources for Covid-19.",
             title:" Search for resources ",
-            url:"https://covidresources.netlify.app/"
+            url:"https://covidresources.netlify.app/",
+            city:"India"
         },
         {
+            id:18,
             description:"Find Hospitals on Map",
             title:" Search for hospitals ",
-            url:"https://covid-19-hospital-data.el.r.appspot.com/?location=Delhi&onlyGreen=true"
+            url:"https://covid-19-hospital-data.el.r.appspot.com/?location=Delhi&onlyGreen=true",
+            city:"India"
         },
         {
+            id:19,
             description:"All information but limited to banglore region",
             title:" Banglore ",
-            url:"https://covidhelplinebangalore.com/"
+            url:"https://covidhelplinebangalore.com/",
+            city:"Banglore"
         },
 
-
-
-
         {
-            url:"https://t.me/CovidMumbai",
-            title:"Telegram Groups",
-            description:"Citywise Telegram Public Group to share, seek and give info on Covid related matters. " +
-                " Please join and take and give help in these difficult times. \n" +
-                "https://t.me/CovidAhmedabad\n" +
-                "https://t.me/CovidBengaluru\n" +
-                "https://t.me/covidbhopal\n" +
-                "https://t.me/CovidChandigarh\n" +
-                "https://t.me/CovidCoimbatore\n" +
-                "https://t.me/CovidHyderabad\n" +
-                "https://t.me/CovidIndore\n" +
-                "https://t.me/CovidJaipur\n" +
-                "https://t.me/CovidJodhpur\n" +
-                "https://t.me/CovidKolkata\n" +
-                "https://t.me/CovidLucknow \n" +
-                "https://t.me/CovidMumbai\n" +
-                "https://t.me/CovidNCR\n" +
-                "https://t.me/CovidNagpur\n" +
-                "https://t.me/CovidNashik\n" +
-                "https://t.me/CovidPatna\n" +
-                "https://t.me/CovidPune\n" +
-                "https://t.me/CovidSurat\n" +
-                "https://t.me/CovidUdaipur\n" +
-                "https://t.me/CovidVaranasi "
-        },
-        {
+            id:21,
             url:"",
             title:"Medical resources in Delhi",
             description:
@@ -203,8 +218,20 @@ export default function UseFulLinks() {
                 " * oxygen refil Wazirabaad delhi,28 futa road, near Jama masjid, Gali-9,Mohd salim." +
                 " * oxygen refil Rohini sec-8,C-7/236 Mr.Yash--+919811868466." +
                 " * oxygen refil Rohini sec-11,H3/5,6 Mr. Anjani kumar--+918950276817." +
-                " * oxygen refil  Arvind jain,Oxygen silender and oxygen- all delhi +91931568685."
+                " * oxygen refil  Arvind jain,Oxygen silender and oxygen- all delhi +91931568685.",
+            city:"Delhi"
         },]
+
+    const columns = [
+        { field: 'id', headerName: 'ID', width: 70 },
+        { field: 'city', headerName: 'City', width: 200 },
+        { field: 'url', headerName: 'Link', width: 400,
+            renderCell: ( param) => (
+                <a href={param.value} target="_blank" rel="noreferrer noopener">{param.value}</a>
+            ) },
+        { field: 'description', headerName: 'Details', width: 800 },
+
+    ];
 
     const items = []
 
