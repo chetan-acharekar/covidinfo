@@ -4,7 +4,11 @@ import Link from "next/link";
 
 const columns = [
     { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'link', headerName: 'Link', width: 400 }
+    { field: 'link', headerName: 'Link', width: 400,
+        renderCell: ( param) => (
+            <a href={param.value} target="_blank" rel="noreferrer noopener">{param.value}</a>
+        ) },
+
 ];
 
 const rows = [
