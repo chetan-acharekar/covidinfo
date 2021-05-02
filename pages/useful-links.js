@@ -174,9 +174,24 @@ export default function UseFulLinks() {
             url:"https://covidhelplinebangalore.com/",
             city:"Banglore"
         },
-
+        {
+            id:20,
+            description:"All information but limited to vasai city",
+            title:" Vasai ",
+            url:"https://vasaicoronaresources.net/dashboard/",
+            city:"Vasai"
+        },
         {
             id:21,
+            description:"All information but limited to Meera Bhainder city",
+            title:" Meera Bhainder ",
+            url:"https://www.covidbedmbmc.in/",
+            city:"Meera Bhainder"
+        },
+
+
+        {
+            id:22,
             url:"",
             title:"Medical resources in Delhi",
             description:
