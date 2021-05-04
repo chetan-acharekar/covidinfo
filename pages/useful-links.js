@@ -51,6 +51,23 @@ export default function UseFulLinks() {
             city:"Pune"
         },
         {
+            id:24,
+            url:"https://www.nmmchealthfacilities.com/HospitalInfo/showhospitalist",
+            title:"Hospitals in Navi Mumbai",
+            description:"Check beds availability, ventilators status in NMMC region",
+            city:"Pune"
+        },
+
+
+        {
+            id:23,
+            url:"https://covid.army/",
+            title:"Tweet search",
+            description:"this has all the info on medicines, beds, oxygen, etc. city-wise",
+            city:"India"
+        },
+
+        {
             id:3,
             url:"https://docs.google.com/spreadsheets/d/10dnssljiBoCE7Ni9UGpEGcWiBn0z_8vBARHAkoU8HJg/edit#gid=0",
             description:"Contact details for few hospitals in pune Area ",
@@ -108,6 +125,15 @@ export default function UseFulLinks() {
             title:"Data aggregator for medical resources",
             url:"https://covidtools.in",
             city:"India"
+        },
+
+        {
+            id:25,
+            description:"List for many links and resources. Specially hospital status link for many cities ",
+            title:"Data aggregator for medical resources",
+            url:"https://covilives.com/",
+            city:"India"
+
         },
         {
             id:11,
