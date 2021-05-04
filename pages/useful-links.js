@@ -57,6 +57,22 @@ export default function UseFulLinks() {
             description:"Check beds availability, ventilators status in NMMC region",
             city:"Pune"
         },
+        {
+            id:26,
+            description:"Color coded information about many hospitals with bes status and contact details ",
+            title:"Hospitals Details in Navi Mumbai",
+            url:"https://dshm.delhi.gov.in/mis/(S(awi0a3veptlppmqfq4pukgal))/Private/frmFreeBedMonitoringReport.aspx",
+            city:"Delhi"
+
+        },
+        {
+            id:27,
+            description:"Detailed status of hospital, along with last updated date ",
+            title:"Hospitals Details in Bengaluru Mahanagar region",
+            url:"https://bbmpgov.com/chbms/",
+            city:"Bengaluru"
+
+        },
 
 
         {
