@@ -60,7 +60,7 @@ export default function UseFulLinks() {
         {
             id:26,
             description:"Color coded information about many hospitals with bes status and contact details ",
-            title:"Hospitals Details in Navi Mumbai",
+            title:"Hospitals in Delhi",
             url:"https://dshm.delhi.gov.in/mis/(S(awi0a3veptlppmqfq4pukgal))/Private/frmFreeBedMonitoringReport.aspx",
             city:"Delhi"
 
@@ -68,7 +68,7 @@ export default function UseFulLinks() {
         {
             id:27,
             description:"Detailed status of hospital, along with last updated date ",
-            title:"Hospitals Details in Bengaluru Mahanagar region",
+            title:"Hospitals in Bengaluru",
             url:"https://bbmpgov.com/chbms/",
             city:"Bengaluru"
 
@@ -108,7 +108,7 @@ export default function UseFulLinks() {
             id:6,
             url:"https://www.gethelpnow.in",
             title:"Get Ambulance",
-            description:"Students and alumni of IIT Bombay and IIMs have started an initiative called HelpNow. HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients, healthcare workers, hospitals, testing labs and Government bodies through the helpline number 88 99 88 99 52.",
+            description:"HelpNow provides sanitized and well-equipped ambulances with ventilators, within 15 to 20 minutes across Mumbai, Pune, Delhi and Bengaluru.  24x7 network is available to patients through the helpline number 88 99 88 99 52.",
             city:"India"
         },
         {
