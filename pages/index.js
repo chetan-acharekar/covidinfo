@@ -68,6 +68,13 @@ export default function Home() {
           {/*</div>*/}
 
           <div className="card">
+            <Link href="/vaccine"><a>
+              <h3>Vaccine &rarr;</h3>
+              <p>Useful links for vaccine</p>
+            </a></Link>
+          </div>
+
+          <div className="card">
             <Link href="/about-us"><a>
               <h3>About us &rarr;</h3>
               <p>We are just common people</p>
