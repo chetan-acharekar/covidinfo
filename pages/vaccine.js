@@ -68,7 +68,7 @@ export default function UseFulLinks() {
         },
 
         {
-            id:24,
+            id:3,
             url:"https://www.nmmchealthfacilities.com/HospitalInfo/showhospitalist",
             title:"Google Vaccine Groups",
             description:"https://groups.google.com/g/bom_vaccine_alerts\n" +
@@ -80,12 +80,22 @@ export default function UseFulLinks() {
                 " https://groups.google.com/g/pat_vaccine_alert\n" +
                 "\n" +
                 "https://groups.google.com/g/delhi_vaccine_alerts/\n" +
-                " https://groups.google....m/ggn_vaccine_alert\n" +
+                " https://groups.google.com/g/ggn_vaccine_alert\n" +
                 "\n" +
                 "https://groups.google.com/g/gaziabad_vaccine_alert/\n" +
                 "https://groups.google.com/g/hennai_vaccine_alert/",
             city:"India"
-        }]
+        },
+        {
+            id:4,
+            url:"https://m.paytm.me/vaccineslotfinder",
+            title:"Paytm",
+            description:"Real time slot finder provided by paytm",
+            city:"India"
+        }
+
+
+        ]
 
     const columns = [
         { field: 'id', headerName: 'ID', width: 70 },
