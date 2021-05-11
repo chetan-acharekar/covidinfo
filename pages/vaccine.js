@@ -96,14 +96,14 @@ export default function UseFulLinks() {
         {
             id:5,
             url:"https://getjab.in/",
-            title:"https://getjab.in/",
+            title:"getjab",
             description:"Email notification when slot is available",
             city:"India"
         },
         {
             id:5,
-            url:"cowinalert",
-            title:"https://cowinalert.com/",
+            url:"https://cowinalert.com/",
+            title:"cowinalert",
             description:"Email notification when slot is available",
             city:"India"
         }
