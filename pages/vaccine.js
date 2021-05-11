@@ -92,6 +92,13 @@ export default function UseFulLinks() {
             title:"Paytm",
             description:"Real time slot finder provided by paytm",
             city:"India"
+        },
+        {
+            id:5,
+            url:"https://getjab.in/",
+            title:"https://getjab.in/",
+            description:"Email notification when slot is available",
+            city:"India"
         }
 
 
